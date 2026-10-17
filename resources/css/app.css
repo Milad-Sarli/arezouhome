@@ -1,0 +1,65 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('/fonts/Vazirmatn-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('/fonts/Vazirmatn-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('/fonts/Vazirmatn-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Kalameh';
+    src: url('/fonts/KalamehWeb-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Kalameh';
+    src: url('/fonts/KalamehWeb-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Kalameh';
+    src: url('/fonts/KalamehWeb-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('/fonts/Dana-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('/fonts/Dana-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dana';
+    src: url('/fonts/Dana-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@theme {
+    --font-sans: 'Dana', Tahoma, ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Kalameh', 'Dana', Tahoma, sans-serif;
+    --font-toman: 'Vazirmatn', Tahoma, sans-serif;
+}
